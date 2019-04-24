@@ -1,0 +1,66 @@
+p,
+h2 {
+  margin: 0;
+}
+
+.pricingItem {
+  box-sizing: border-box;
+  width: 450px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 85px 70px;
+  background: #ffffff;
+}
+
+.icon {
+  width: 150px;
+  height: 160px;
+  display: inline-block;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.label {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+}
+
+.capacity {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #b9b9b9;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: #bababa;
+}
+
+.description::first-letter {
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 2.25rem;
+  color: #818d8d;
+  text-transform: uppercase;
+}
+
+.button {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 0.875rem;
+  padding: 20px 60px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:active,
+.button:focus {
+  outline: none;
+}
